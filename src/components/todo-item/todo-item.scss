@@ -1,0 +1,34 @@
+.todo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.todo__checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.todo__name {
+  margin: 0;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.todo--done .todo__name {
+  text-decoration: line-through;
+}
+
+.todo__edit {
+  margin-right: 20px;
+}
+
+.todo__action {
+  display: block;
+  background-color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}

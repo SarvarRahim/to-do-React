@@ -1,0 +1,22 @@
+.add-todo {
+  display: flex;
+}
+
+.add-todo__input {
+  flex-grow: 1;
+  margin-right: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.add-todo__submit {
+  border: none;
+  background-color: rgb(0, 183, 255);
+  color: #fff;
+  border-radius: 4px;
+  padding: 15px 20px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+}
