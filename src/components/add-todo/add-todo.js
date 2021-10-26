@@ -7,7 +7,7 @@ const AddTodo = ({todos, setTodos}) => {
     evt.preventDefault();
 
     if (inputRef.current.value.trim()) {
-      setTodgitos([
+      setTodos([
         ...todos,
         {
           id: Math.random(),
@@ -17,7 +17,6 @@ const AddTodo = ({todos, setTodos}) => {
       ]);
       inputRef.current.value = ""
     }
-
   };
 
   return (
